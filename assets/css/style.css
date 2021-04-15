@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+/* Font-family:"Raleway"
+Headerhöhe:76px
+Logofarbe: #666
+Logofarbe in hover: #333
+Menüfarbe: #333 
+Menüfarbe in hover: #337ab7 */
+html {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+header {
+    height: 76px;
+    Font-family:"Raleway";
+    padding-bottom: 0;
+    position: fixed;
+    width: 100%;
+    background: white;
+    margin-bottom: 0;
+}
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    /* position: fixed; */
+}
+header nav a {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #666;
+    padding-left: 10%; 
+    flex-grow: 1;
+}
+header nav a:hover {
+    color: #333;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+header nav ul li {
+    list-style-type: none;
+}
+header nav ul li a {
+    text-decoration: none;
+    color: #333;
+    padding-left: 20px;
+}
+header nav ul li a:nth-of-type(6) {
+    margin-right: 5%;
+}
+header nav ul li a:hover {
+    color: #337ab7;
+}
+/* Main */
+section {
+    margin-top: 0;
+    width: 100%;
+    height: 100vh;
+    background: url(../img/3_1.jpeg) center / cover no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    Font-family:"Raleway";
+    color: white;
+}
+section h1 {
+    font-size: 50px;
+    width: 50%;
+    text-align: center;
+    margin-bottom: 0;
+}
+section p {
+    font-size: 0.8rem;
+    margin-bottom: 3%;
+}
+section div a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+    
+}
+/* Die Farbe des Button “Read more” ist: #745cf9
+Die Farbe des Button:hover “Read more” ist: #5234f9 */
+
+section div a:nth-of-type(1) {
+    background: #745cf9;
+    border: 2px solid #745cf9;
+    padding: 15px 40px;
+}
+section div a:nth-of-type(1):hover {
+    background: #5234f9;
+    border: 2px solid #5234f9;
+    padding: 15px 40px;
+}
+
+section div a:nth-of-type(2) {
+    border: 2px solid white;
+    padding: 15px 30px;
+}
+section div a:nth-of-type(2):hover {
+    border: 2px solid white;
+    background: white;
+    padding: 15px 30px;
+    color: black;
+}
